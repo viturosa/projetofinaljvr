@@ -42,26 +42,25 @@ body {
 header {
     display: flex;
     align-items: center;
-    column-gap: 64px;
-
+    column-gap: space-between;
+    padding-right: 1%;
     width: 100%;
-    max-width: 1440px;
-    padding-top: 24px;
+    padding-top: 1%;
 
 }
 
 .navigation {
     display: flex;
     align-items: center;
-    column-gap: 48px;
+    column-gap: 4%;
 
     list-style: none;
 }
 
 .navigation_link {
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 89%;
+    font-weight: 35%;
+    letter-spacing: 20%;
 
     position: relative;
 
@@ -117,9 +116,8 @@ h1 {
     align-content: flex-start;
     color: whitesmoke;
     width: 100%;
-    max-width: 470px;
-    margin: 70px 0 28px;
-    margin-left: 40px;    
+    max-width: 40%;
+    margin: 4%;    
 }
 
 a {
@@ -133,17 +131,16 @@ footer {
     width: 100%;
     background: grey;
     opacity: 0.5;
-    max-height: fit-content;
+    max-height: 9%;
 }
 
 .logos {
-    margin-left: 40px;
-    margin-top: 10px;
-    padding: 5px;
-    height: 25px;
-    width: 25px;
+    padding: 2%;
+    height: 25%;
+    width: 25%;
     opacity: 0.5;
     transition: all 0.4s;
+
 }
 
 .logos:hover {

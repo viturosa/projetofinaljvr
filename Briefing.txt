@@ -1,8 +1,7 @@
 Cabeçalho
 
-Foto e nome do artista > Binho Pacheco 
-Descrição dos serviços > Coreógrafo, professor e coach
-Subdescrição > Ballet clássico, neoclássico e contemporâneo
+Foto e nome do artista > vitor rosa 
+Descrição dos serviços 
 
 Menu
 

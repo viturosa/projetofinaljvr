@@ -1,0 +1,22 @@
+Cabeçalho
+
+Foto e nome do artista > Binho Pacheco 
+Descrição dos serviços > Coreógrafo, professor e coach
+Subdescrição > Ballet clássico, neoclássico e contemporâneo
+
+Menu
+
+PORTFOLIO				> destaques das criações com fotos e clipes 
+
+coreografias
+PROFISSIONAIS			> videos do youtube
+
+coreografias para
+ESTUDANTES				> videos do youtube
+
+FORMAÇÃO				> textos com curriculum
+
+CONTATO				> informações de contato e formulário para solicitação de contato
+
+
+Rodapé com tags das redes sociais

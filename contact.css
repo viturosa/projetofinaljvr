@@ -97,7 +97,7 @@ main {
     }
 
     footer {
-        height: fit-content;
+        height:64px;
     }
 
 }

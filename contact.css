@@ -1,6 +1,5 @@
 body {
-    width: 100vw;
-    height: 100vh;
+
     margin: 0px;
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -8,21 +7,24 @@ body {
 }
 
 
+
+
 #app {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    height: 100%;
 
 }
+
 
 header {
     display: flex;
     align-items: center;
-    column-gap: space-between;
+    margin-left: 2%;
     padding-right: 1%;
-    min-width: 100vw; 
+    width: 100vw;
     padding-top: 1%;
 
 }
@@ -30,10 +32,11 @@ header {
 .navigation {
     display: flex;
     align-items: center;
-    column-gap: 4%;
+    column-gap: 15%;
 
     list-style: none;
 }
+
 
 .navigation_link {
     font-size: 89%;
@@ -70,27 +73,37 @@ header {
 
 }
 
-
+h2 {
+    margin:0px;
+    padding:0px;
+}
 main {
-    margin: 2%;
+    margin-left: 5%;
     padding: 2%;
     color: gray;
     width: 100%;
     height: 80vh;
 }
 
-h2 {
-    margin: 2%;
-    color: whitesmoke;
-}
-hr {
-    color: whitesmoke;
-    opacity:0.6;
+@media only screen and (max-width:400px) {
+    .navigation {
+        display: inline;
+
+    }
+
+    .last {
+        margin-bottom: 20%;
+        padding-bottom: 40%;
+    }
+
+    footer {
+        height: fit-content;
+    }
 
 }
-form {
-    margin-left: 2%;
-}
+
+
+
 
 a {
     text-decoration: none;
@@ -102,18 +115,18 @@ a {
 footer {
     position: fixed;
     bottom: 0;
+    width: 100%;
     z-index: 1;
-    height: 9vh;
-    width: 100vw;
+    height: 8vh;
     background: rgb(70, 66, 66);
     opacity: 0.9;
 }
 
 .logos {
-    margin-left: 1%;
+    margin-left: 3%;
     flex-direction: row;
     align-items: left;
-    padding: 2%;
+    padding: 1%;
     height: 3vh;
     width: 3vw;
     opacity: 0.5;
@@ -125,4 +138,55 @@ footer {
     opacity: 1;
     transform: translateY(-5px);
     cursor: pointer;
+}
+
+h2 {
+    margin: 2%;
+    color: whitesmoke;
+}
+hr {
+    color: whitesmoke;
+    opacity:0.6;
+
+}
+span {
+    margin: 1%;
+    opacity: 0.6;
+}
+span:hover {
+    opacity: 1;
+}
+.last {
+    padding-bottom: 10%;
+}
+h2 {
+    margin: 2%;
+    color: whitesmoke;
+}
+hr {
+    color: whitesmoke;
+    opacity:0.6;
+
+}
+
+h4 {
+    color: whitesmoke;
+    margin: 2%;
+}
+span {
+    margin: 2%;
+    color: rgb(83, 78, 78);
+    margin: 1%;
+    opacity: 0.6;
+}
+section {
+    margin: 3%;
+    color: rgb(68, 66, 66);
+}
+span:hover {
+    opacity: 1;
+}
+.last {
+    margin-bottom: 10%;
+    padding-bottom: 10%;
 }

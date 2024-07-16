@@ -1,10 +1,12 @@
 body {
-    width: 100vw;
-    height: 100vh;
+
     margin: 0px;
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+
+
 
 #background {
     position: fixed;
@@ -35,17 +37,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
 
 }
+
 
 header {
     display: flex;
     align-items: center;
-    column-gap: space-between;
+    margin-left: 2%;
     padding-right: 1%;
-    min-width: 100vw; 
+    width: 100vw;
     padding-top: 1%;
 
 }
@@ -53,10 +56,11 @@ header {
 .navigation {
     display: flex;
     align-items: center;
-    column-gap: 4%;
+    column-gap: 15%;
 
     list-style: none;
 }
+
 
 .navigation_link {
     font-size: 89%;
@@ -104,6 +108,20 @@ main {
     width: 100%;
     height: 80vh;
 }
+@media only screen and (max-width:400px) {
+    .navigation {
+        display: inline;
+
+    }
+    main {
+        margin-left: 5%;
+        text-size-adjust: 60%;
+    
+    }
+    .main_info {
+        padding-bottom: 30%;
+    }
+}
 
 h1 {
     padding-bottom: -20%;
@@ -120,8 +138,8 @@ h1 {
     width: 100%;
     max-width: 40%;
     margin: 4%;
-    height: fit-content; 
-    padding-bottom: 20%;   
+    height: fit-content;
+    padding-bottom: 20%;
 }
 
 a {
@@ -133,16 +151,16 @@ a {
 
 footer {
     position: fixed;
+    width: 100%;
     bottom: 0;
     z-index: 1;
-    height: 9vh;
-    width: 100vw;
+    height: 8vh;
     background: rgb(70, 66, 66);
     opacity: 0.9;
 }
 
 .logos {
-    margin-left: 1%;
+    margin-left: 2%;
     flex-direction: row;
     align-items: left;
     padding: 2%;

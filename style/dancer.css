@@ -4,10 +4,8 @@ body {
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
-
-
-
 
 #app {
     display: flex;
@@ -15,9 +13,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-
 }
-
 
 header {
     display: flex;
@@ -33,18 +29,14 @@ header {
     display: flex;
     align-items: center;
     column-gap: 15%;
-
     list-style: none;
 }
-
 
 .navigation_link {
     font-size: 89%;
     font-weight: 35%;
     letter-spacing: 20%;
-
     position: relative;
-
 }
 
 .navigation_link:hover {
@@ -56,11 +48,9 @@ header {
     position: absolute;
     left: 0;
     bottom: -2px;
-
     width: 60%;
     height: 1px;
     background: grey;
-
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.4s;
@@ -70,28 +60,20 @@ header {
     transform: scaleX(1);
     transform-origin: left;
     transition: transform 0.4s;
-
 }
-
 
 main {
     margin: 0px;
     padding: 0px;
-    color: gray;
-  
     width: 100%;
     height: 80vh;
 }
 
-.music {
-    margin-left:2%;
-}
 @media only screen and (max-width:400px) {
+
     .navigation {
         display: inline;
-
     }
-
     .last {
         padding-bottom: 25%;
     }
@@ -99,19 +81,15 @@ main {
         max-width: 100vw;
     }
     footer {
-        height:64px;
+        height: 64px;
     }
 
 }
-
-
-
 
 a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-
 }
 
 footer {
@@ -133,7 +111,6 @@ footer {
     width: 3vw;
     opacity: 0.5;
     transition: all 0.4s;
-
 }
 
 .logos:hover {
@@ -146,18 +123,21 @@ h2 {
     margin: 2%;
     color: whitesmoke;
 }
+
 hr {
     color: whitesmoke;
     opacity:0.6;
-
 }
+
 span {
     margin: 1%;
     opacity: 0.6;
 }
+
 span:hover {
     opacity: 1;
 }
+
 .last {
     padding-bottom: 10%;
 }

@@ -1,21 +1,19 @@
 Cabeçalho
 
-Foto e nome do artista > vitor rosa 
+Foto e nome do artista > Vitor Rosa 
 Descrição dos serviços 
 
 Menu
 
 PORTFOLIO				> destaques das criações com fotos e clipes 
 
-coreografias
-PROFISSIONAIS			> videos do youtube
+cv bailarino				> videos do youtube
 
-coreografias para
-ESTUDANTES				> videos do youtube
+cv coreógrafo				> videos do youtube
 
 FORMAÇÃO				> textos com curriculum
 
-CONTATO				> informações de contato e formulário para solicitação de contato
+CONTATO					> informações de contato e formulário para solicitação de contato
 
 
 Rodapé com tags das redes sociais

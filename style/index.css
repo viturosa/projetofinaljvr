@@ -228,11 +228,13 @@ footer {
 
   footer {
     height: 50px;
+    gap: 20px;
   }
 
   .logos {
     width: 8vw;
     height: auto;
+    gap:5%;
   }
 }
 
@@ -253,5 +255,6 @@ footer {
 
   footer {
     height: 60px;
+    gap: 30px;
   }
 }

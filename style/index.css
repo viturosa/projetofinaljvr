@@ -58,9 +58,18 @@ header {
 .navigation {
   display: flex;
   align-items: center;
-  column-gap: 15%;
+  gap: 2rem; /* melhor que column-gap em desktop */
   list-style: none;
-  transition: max-height 0.4s ease;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation.open {
+  /* no desktop essa classe não afeta */
+  max-height: none;
+  padding: 0;
 }
 
 .navigation_link {
@@ -108,10 +117,10 @@ main {
   align-content: flex-start;
   color: whitesmoke;
   width: 100%;
-  max-width: 40%;
-  margin: 4%;
-  height: fit-content;
-  padding-bottom: 10%;
+  max-width: 60%; /* aumentei para não cortar texto */
+  margin: 6% auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 h1.title {
@@ -167,6 +176,7 @@ footer {
   font-size: 2rem;
   cursor: pointer;
   color: white;
+  display: none;
 }
 
 /* MOBILE RETRATO */
